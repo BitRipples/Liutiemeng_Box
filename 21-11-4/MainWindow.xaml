@@ -1,0 +1,38 @@
+﻿<Window x:Class="_21_11_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_21_11_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FFFBFBFB" Offset="1"/>
+            <GradientStop Color="#FF4BB9B5" Offset="0.378"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid Cursor="None">
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" Background="White" Text="这是一个文本框" FontSize="24"/>
+        <Button Content="No.1按钮" HorizontalAlignment="Left" Margin="270,93,0,0" VerticalAlignment="Top" Width="122" Height="46" FontSize="24" FontFamily="Consolas" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.8"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="No.2按钮" HorizontalAlignment="Left" Margin="270,197,0,0" VerticalAlignment="Top" Width="122" Height="46" FontFamily="Consolas" FontSize="24" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.8"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="270,299,0,0" VerticalAlignment="Top" Width="122" RenderTransformOrigin="0.492,0.5"/>
+
+    </Grid>
+</Window>
+    
