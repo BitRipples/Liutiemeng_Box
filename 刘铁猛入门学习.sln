@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21-11-8", "21-11-8", "{F266
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-8-【1】", "11-8-【1】\11-8-【1】.csproj", "{98E92FC7-471F-43BC-A046-11C6A4D9D17C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-9-【1】数据类型", "11-9-【1】数据类型\11-9-【1】数据类型.csproj", "{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{98E92FC7-471F-43BC-A046-11C6A4D9D17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E92FC7-471F-43BC-A046-11C6A4D9D17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E92FC7-471F-43BC-A046-11C6A4D9D17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{98E92FC7-471F-43BC-A046-11C6A4D9D17C} = {F266CDAF-0468-4481-A5A5-23163790CC9A}
+		{E31CACA8-0FD1-432F-A3D1-7BFCD93889C6} = {F266CDAF-0468-4481-A5A5-23163790CC9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D6166D7-9E63-424F-B343-9C56601FFA59}

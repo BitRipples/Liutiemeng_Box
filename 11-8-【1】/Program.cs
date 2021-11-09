@@ -18,6 +18,7 @@ namespace _11_8__1_
             ///
             Person hekai = new Person();
             /*hekai.Shuanshu(1, 100);*/
+            
             hekai.diguisuanshu(1, 100, 0);
         }
     }
